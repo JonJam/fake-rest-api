@@ -1,0 +1,22 @@
+{
+  "name": "fake-rest-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/JonJam/fake-rest-api.git",
+  "author": "Jonathan Harrison",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chalk": "^0.4.31",
+    "@types/node": "^8.0.28",
+    "chalk": "^2.1.0",
+    "json-schema-faker": "^0.4.3",
+    "json-server": "^0.12.0",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.5.2"
+  },
+  "scripts": {
+    "generate-mock-api-data": "ts-node buildScripts/generateData.ts",
+    "prestart": "npm run generate-mock-api-data",
+    "start": "json-server --watch buildScripts/db.json --port 3000"
+  }
+}

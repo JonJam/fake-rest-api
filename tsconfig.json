@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "es5",
+      "sourceMap": true,
+      "moduleResolution": "node",
+      "forceConsistentCasingInFileNames": true,
+      "noImplicitReturns": true,
+      "suppressImplicitAnyIndexErrors": true,
+      "noUnusedLocals": true,
+      "strict": true,
+      "noFallthroughCasesInSwitch": true,
+      "noUnusedParameters": true,
+      "noEmitOnError": true,
+      "removeComments": true,
+      "skipLibCheck": true
+    },
+    "exclude": ["node_modules"]
+  }
