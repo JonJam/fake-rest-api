@@ -7,6 +7,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/chalk": "^0.4.31",
+    "@types/faker": "^4.1.4",
     "@types/node": "^8.0.28",
     "chalk": "^2.1.0",
     "json-schema-faker": "^0.4.3",
