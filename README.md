@@ -20,3 +20,8 @@ yarn run start
 ```
 
 This will generate random data in `/buildScripts/db.json` and then serve it on a REST API on port 3000.
+
+## Related links
+* https://medium.freecodecamp.org/rapid-development-via-mock-apis-e559087be066
+* https://github.com/coryhouse/mock-api-example
+* https://github.com/yeay-tv/fake-rest-api
